@@ -1,0 +1,260 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+
+header{
+    display: flex;
+    height: 80px;
+    background-color:#ffffff;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid #f6f6f6 ;
+}
+.logo{
+    height: 45px;
+
+}
+.logo-container{
+    margin-left: 4%;
+}
+.action-bar {
+    margin-right: 4%;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    min-width: 500px;
+    
+}
+
+.nav-bar a {
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none; 
+    padding: 28px 0;
+    border-bottom: 5px solid #ffffff;
+}
+
+.nav-bar a:hover {
+    border-bottom: 4px solid #f54e77;
+}
+
+.nav-bar a sup{
+    color: #ff3f6c;
+    font-size: 10px;
+}
+
+.search-bar{
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+
+}
+
+.search-icon{
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color: #f5f5f6;
+    color: #696e79;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-input {
+    background-color: #f5f5f6;
+    color: #696e79;
+    flex-grow: 1;
+    height: 40px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+}
+
+.action-bar {
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.action-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-container {
+    margin: 40px 0;
+}
+
+.banner-image {
+    width: 100%;
+}
+
+.category-heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.category-items,.items-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.category-items image:hover{
+
+    box-shadow: 4px 8px 4px black;
+}
+.items-container {
+    margin-top: 40px;
+    margin: 5px;
+    width: 80%;
+    margin:40px 10%;
+
+}
+.sales-items {
+    width: 250px;
+}
+
+.item-container{
+    width: 200px;
+
+}
+
+.item-image {
+    width: 100%;
+}
+
+.rating{
+    font-size: 12px;
+    font-weight: 700;
+
+}
+.company-name{
+    margin-top: 15px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #383c3f;
+    margin-bottom: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.item-name{
+
+    color: #535766;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    display: block;
+
+}
+
+
+.price {
+    font-size: 10px;
+    line-height: 15px;
+    color: #282c3f;
+    white-space: nowrap;
+
+}
+
+.current-price{
+    font-size: 14px;
+    font-weight: 700;
+    color: #282c3f;
+
+
+}
+
+.original-price{
+    text-decoration: line-through;
+    color: #7e818c;
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.discount{
+    color: #ff905a;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left:5px ;
+
+}
+.add-to-cart{
+  
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+  background: #FFD814;
+  border: 1px solid #FCD200;
+  font-size: 13px;
+  height: 31px;
+  padding: 0 11px;
+  text-align: center;
+  width: 100%;
+  min-width: 200px;
+  font-weight: 500;
+  color: #0F1111;
+  }::before:hover{
+    background: #F7CA00;
+    border-color: #F2C200;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%)
+  }
+.footer-container {
+    padding: 30px 0px 40px 0px;
+    background-color: #FAFBFC;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #696b79;
+    text-decoration: none;
+    padding-bottom:5px ;
+}
+
+.footer-column h3 {
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+    
+}
